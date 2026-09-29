@@ -16,11 +16,16 @@ def indice_de_masse_corporelle(weight, height): # creation de la focntion pour c
 # je calcule mon IMC avec mon poids et ma taille SAMY K
 weight = 100  # poids en kg
 height = 1.80  # taille en m
-indice_de_masse_corporelle(weight, height)  # appel de la fonction pour
+indice_de_masse_corporelle(weight, height)  # appel de la fonction 
 
 
-# Je calcul un IMC GauthierBourdon
+# Je calcule un IMC GauthierBourdon
+poids = 1000  # poids en kg
+taille = 1.2  # taille en m
+indice_de_masse_corporelle(poids, taille) 
 
-weight = 1000  # poids en kg
-height = 1.2  # taille en m
-indice_de_masse_corporelle(weight, height)  # appel de la fonction pour
+# Idem : Zoe Favier
+w = 45
+h = 1.50
+indice_de_masse_corporelle(w, h) 
+
