@@ -7,3 +7,9 @@ print("We are on strike!")
 salary_state = 'low'
 if salary_state == 'low' :
     print('Still on strike')
+    
+    
+hospital == "destroyed"
+if hopital == "destroyed":
+#  : author: G. Bourdon
+    print("Still on strike")
