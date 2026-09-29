@@ -58,3 +58,5 @@ print("Size of c_view:", sys.getsizeof(c_view), "bytes")
 print("shared memory of c_copy:", np.shares_memory(c, c_copy))
 print("shared memory of c_view:", np.shares_memory(c, c_view))
 
+
+# super bravo à tous
