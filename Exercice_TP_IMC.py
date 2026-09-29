@@ -59,4 +59,31 @@ print("shared memory of c_copy:", np.shares_memory(c, c_copy))
 print("shared memory of c_view:", np.shares_memory(c, c_view))
 
 
+
+
+EX 8 : 
+
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.stats
+
+
+t1 = [0, 1.73, 2.8, 5.5, 18, 22]
+c1 = [c10, 3, 2.5, 1.6, 0.2, 0.1]
+
+plt.figure()
+plt.plot(t1,np.log(c1),'ob')
+plt.xlabel('time (min)')
+plt.ylabel('concentration c1 (mol/L)')
+plt.grid()
+
+lr = scipy.stats.linregress(t1,np.log(c1))
+print(lr)
+k1 = -lr[0]
+corr = lr[2]
+print("Le coefficient de corrélation vaut {:0.6f}".format(abs(corr)))
+print("La constante de vitesse de la réaction d'absorption vaut k1 = {:0.4f} min-1".format(k1))
+
+
+
 # super bravo à tous
