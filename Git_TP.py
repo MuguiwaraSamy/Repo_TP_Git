@@ -2,3 +2,8 @@
 
 # Samy Kefs Part
 print("We are in strike!")
+
+# Stéphan Pissot's part
+salary_state = 'low'
+if salary_state == 'low' :
+    print('Still on strike')
