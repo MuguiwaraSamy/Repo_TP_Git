@@ -18,3 +18,9 @@ weight = 100  # poids en kg
 height = 1.80  # taille en m
 indice_de_masse_corporelle(weight, height)  # appel de la fonction pour
 
+
+# Je calcul un IMC GauthierBourdon
+
+weight = 1000  # poids en kg
+height = 1.2  # taille en m
+indice_de_masse_corporelle(weight, height)  # appel de la fonction pour
