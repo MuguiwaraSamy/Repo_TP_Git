@@ -18,5 +18,18 @@ if hospital == "destroyed":
 research_funding = 'low'
 if research_funding == 'low':
     print('Still on strike')
-    
+
+# Zoé Favier's part:
+import pandas as pd
+books = [
+    ["1984", "George Orwell", 1949],
+    ["Brave New World", "Aldous Huxley", 1932],
+    ["Fahrenheit 451", "Ray Bradbury", 1953],
+    ["We", "Yevgeny Zamyatin", 1924],
+    ["The Handmaid's Tale", "Margaret Atwood", 1985],
+    ["Silo", "Hugh Howey", 2011],
+    ["Neuromancer", "William Gibson", 1984],
+]
+df = pd.DataFrame(books, columns=["Title", "Author", "Year"])
+print(df)
     
