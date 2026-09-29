@@ -1,4 +1,10 @@
-Git TP
+Git TP - DQPRM 26-27
+
+BOURDON Gauthier
+FAVIER Zoé
+KEFS Samy
+PISSOT Stéphan
+
 
 This project was created as a group to learn how to use Git.
 
